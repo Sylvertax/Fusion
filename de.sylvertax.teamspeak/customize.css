@@ -1,12 +1,14 @@
 @import url(fusion.css);
 
+/* Change only the marked colors */
+
 :root{
-    --fusion-primary: #2f7de4;
-    --fusion-primary-hover: #4289e6;
-    --fusion-bg-primary: #ffffff;
-    --fusion-bg-secondary: #c7c7c7;
-    --fusion-contrast: #e3e3e3;
-    --fusion-text-color: #2c2c2c;
+    --fusion-primary: #2f7de4; /* Primary color - Default: #2f7de4*/
+    --fusion-primary-hover: #2a6abe; /* Primary hover effect - Default: #2a6abe*/
+    --fusion-bg-primary: #1c2437; /* Primary background - Default: #1c2437*/
+    --fusion-bg-secondary: #2b3346; /* Secondary Background - Default: #2b3346*/
+    --fusion-contrast: #242c3f; /* Contrast Background - Default: #242c3f*/
+    --fusion-text-color: #d6d6d6; /* Text Color of the Theme need to be inverted for visibility - Default: #d6d6d6*/
 }
 
 :root{
@@ -17,17 +19,17 @@
     --ts-chat-system-message-bg: var(--fusion-bg-primary) !important;
     --tsv-header-bg: linear-gradient(to bottom, var(--fusion-bg-primary), var(--fusion-bg-secondary)) !important;
     --tsv-icon-base: var(--fusion-text-color) !important;
-    --tsv-separation-border-color: #515463 !important;
+    --tsv-separation-border-color: #515463 !important; /* Dont touch this, it works with all the theme you make */
     --tsv-client-silent--gradient-start: var(--fusion-contrast) !important;
     --tsv-client-silent--gradient-stop: var(--fusion-bg-secondary) !important;
     --tsv-contrast-bg: var(--fusion-contrast) !important;
     --tsv-highlight-header-honeycomb-bg: linear-gradient(to bottom, var(--fusion-bg-primary), var(--fusion-bg-secondary)) !important;
     --tsv-shaded-bg: var(--fusion-bg-primary) !important;
-    --tsv-font-subtitle-color: #4d5158 !important;
-    --tsv-icon-channel-bg: #272727 !important;
-    --tsv-icon-channel-shade1: #9099a3 !important;
-    --tsv-icon-channel-shade2: #75828f !important;
-    --tsv-icon-channel-shade3: #6b7580 !important;    
+    --tsv-font-subtitle-color: #8492aa !important; /* Just the Subtitle need to be little darker than the "--fusion-text-color" - Default: #8492aa*/
+    --tsv-icon-channel-bg: #272727 !important;  /* Its the Background from the little Default Icon on the Channel - Default: #272727*/
+    --tsv-icon-channel-shade1: #9099a3 !important; /* Its the little Default Icon on the Channel - Default: #9099a3*/
+    --tsv-icon-channel-shade2: #75828f !important; /* Its the little Default Icon on the Channel - Default: #75828f*/
+    --tsv-icon-channel-shade3: #6b7580 !important; /* Its the little Default Icon on the Channel - Default: #6b7580*/   
     --tsv-tint: var(--fusion-primary) !important;
     --tsv-tint2: var(--fusion-primary-hover) !important;
     --tsv-font-color: var(--fusion-text-color) !important;

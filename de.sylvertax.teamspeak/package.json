@@ -1,7 +1,7 @@
 {
     "name": "Fusion by Sylvertax",
     "description": "Fusion is a Modern Theme for Teamspeak 5. Made with <3",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "identifier": "de.sylvertax.teamspeak",
     "engines": {
         "teamspeak": 1
@@ -42,6 +42,12 @@
                 "name": "Default Theme",
                 "source": "fusiondefault.css",
                 "image": "fusiondefault.png",
+                "apiVersion": 1
+            },
+            {
+                "name": "Customize",
+                "source": "customize.css",
+                "image": "customize.png",
                 "apiVersion": 1
             }
         ]

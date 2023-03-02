@@ -6,6 +6,7 @@
     --fusion-bg-primary: #1c2437;
     --fusion-bg-secondary: #2b3346;
     --fusion-contrast: #242c3f;
+    --fusion-text-color: #d6d6d6;
 }
 
 :root{
@@ -15,7 +16,7 @@
     --tsv-header-font-color: var(--tsv-icon-base) !important;
     --ts-chat-system-message-bg: var(--fusion-bg-primary) !important;
     --tsv-header-bg: linear-gradient(to bottom, var(--fusion-bg-primary), var(--fusion-bg-secondary)) !important;
-    --tsv-icon-base: #d6d6d6 !important;
+    --tsv-icon-base: var(--fusion-text-color) !important;
     --tsv-separation-border-color: #515463 !important;
     --tsv-client-silent--gradient-start: var(--fusion-contrast) !important;
     --tsv-client-silent--gradient-stop: var(--fusion-bg-secondary) !important;
@@ -29,7 +30,7 @@
     --tsv-icon-channel-shade3: #6b7580 !important;    
     --tsv-tint: var(--fusion-primary) !important;
     --tsv-tint2: var(--fusion-primary-hover) !important;
-    --tsv-font-color: #d6d6d6 !important;
+    --tsv-font-color: var(--fusion-text-color) !important;
     --tsv-bg: var(--fusion-bg-secondary) !important;
     --tsv-header-bg: linear-gradient(to bottom, var(--fusion-bg-secondary), var(--fusion-bg-primary)) !important;
     --tsv-scrollbar-bg: var(--fusion-primary) !important;
