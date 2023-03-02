@@ -1,0 +1,36 @@
+@import url(fusion.css);
+
+:root{
+    --fusion-primary: #2f7de4;
+    --fusion-primary-hover: #2a6abe;
+    --fusion-bg-primary: #1c2437;
+    --fusion-bg-secondary: #2b3346;
+    --fusion-contrast: #242c3f;
+}
+
+:root{
+    --ts-third-font-color: var(--tsv-font-subtitle-color) !important;
+    --tsv-client-talking--gradient-start: var(--fusion-primary) !important;
+    --tsv-client-talking--gradient-stop: var(--fusion-primary-hover) !important;
+    --tsv-header-font-color: var(--tsv-icon-base) !important;
+    --ts-chat-system-message-bg: var(--fusion-bg-primary) !important;
+    --tsv-header-bg: linear-gradient(to bottom, var(--fusion-bg-primary), var(--fusion-bg-secondary)) !important;
+    --tsv-icon-base: #d6d6d6 !important;
+    --tsv-separation-border-color: #515463 !important;
+    --tsv-client-silent--gradient-start: var(--fusion-contrast) !important;
+    --tsv-client-silent--gradient-stop: var(--fusion-bg-secondary) !important;
+    --tsv-contrast-bg: var(--fusion-contrast) !important;
+    --tsv-highlight-header-honeycomb-bg: linear-gradient(to bottom, var(--fusion-bg-primary), var(--fusion-bg-secondary)) !important;
+    --tsv-shaded-bg: var(--fusion-bg-primary) !important;
+    --tsv-font-subtitle-color: #8492aa !important;
+    --tsv-icon-channel-bg: #272727 !important;
+    --tsv-icon-channel-shade1: #9099a3 !important;
+    --tsv-icon-channel-shade2: #75828f !important;
+    --tsv-icon-channel-shade3: #6b7580 !important;    
+    --tsv-tint: var(--fusion-primary) !important;
+    --tsv-tint2: var(--fusion-primary-hover) !important;
+    --tsv-font-color: #d6d6d6 !important;
+    --tsv-bg: var(--fusion-bg-secondary) !important;
+    --tsv-header-bg: linear-gradient(to bottom, var(--fusion-bg-secondary), var(--fusion-bg-primary)) !important;
+    --tsv-scrollbar-bg: var(--fusion-primary) !important;
+}

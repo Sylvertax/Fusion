@@ -1,0 +1,49 @@
+{
+    "name": "Fusion by Sylvertax",
+    "description": "Fusion is a Modern Theme for Teamspeak 5. Made with <3",
+    "version": "1.0.0",
+    "identifier": "de.sylvertax.teamspeak",
+    "engines": {
+        "teamspeak": 1
+    },
+    "repository": {
+        "url": "https://github.com/Sylvertax/fusion",
+        "type": "git"
+    },
+    "image": "fusion.png",
+    "license": "MIT",
+    "author": {
+        "name": "Lucas",
+        "email": "sylvertax@web.de",
+        "url": "https://sylvertax.com",
+        "userTag": "Sylvertax@myteamspeak.com"
+    },
+    "content": {
+        "themes": [
+            {
+                "name": "Purple Theme",
+                "source": "fusionpurple.css",
+                "image": "fusionpurple.png",
+                "apiVersion": 1
+            },
+            {
+                "name": "Dark Theme",
+                "source": "fusiondark.css",
+                "image": "fusiondark.png",
+                "apiVersion": 1
+            },
+            {
+                "name": "Light Theme",
+                "source": "fusionlight.css",
+                "image": "fusionlight.png",
+                "apiVersion": 1
+            },
+            {
+                "name": "Default Theme",
+                "source": "fusiondefault.css",
+                "image": "fusiondefault.png",
+                "apiVersion": 1
+            }
+        ]
+    }
+}

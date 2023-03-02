@@ -1,0 +1,365 @@
+
+#app,
+.main,
+.body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Preview Window */
+
+.ts-first-launch-pick-theme-preview-inner {
+    box-shadow: unset !important;
+}
+
+/* Notification */
+
+.ts-notification:first-child {
+    margin-top: 15px;
+    margin-right: 8px;
+}
+
+.ts-notification:before {
+    background: var(--fusion-bg-secondary);
+}
+
+
+/* Inputs */
+
+.ts-simple-card {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+
+/* Theme Selector */
+
+.ts-card-subtitle {
+    margin-bottom: 10px;
+}
+
+.tsv-settings-theme-picker {
+    background-color: var(--fusion-bg-secondary);
+    border-radius: 4px;
+    padding-top: 5vh;
+}
+
+.ts-user-style .ts-user-style-cards .ts-user-style-card {
+    border: unset;
+    height: 200px;
+    margin: .5rem;
+    padding: 4px;
+    width: 200px;
+}
+
+.ts-widget.no-padding,
+.tsv-dashboard-widget.no-padding {
+    padding: 1rem;
+}
+
+div.ts-widget-container.ts-card.no-bottom-margin {
+    box-shadow: unset;
+}
+
+.tsv-settings-window-scale-preview:after {
+    background: linear-gradient(to bottom, transparent 80%, var(--fusion-bg-primary) 100%);
+}
+
+/* Buttons */
+
+.floating-buttons {
+    background-color: var(--tsv-bg);
+    border-radius: 4px;
+    padding: .5rem;
+}
+
+.tsv-button {
+    margin: .5rem;
+}
+
+/* Toggler */
+
+.ts-toggle {
+    background: var(--fusion-bg-secondary);
+    border-radius: 4px;
+    height: 2rem;
+    width: 3rem;
+}
+
+.ts-toggle-inner:after {
+    background: var(--tsv-icon-base);
+}
+
+.ts-toggle-inner.checked:after {
+    background: var(--fusion-primary);
+}
+
+/* Section Header */
+
+.ts-widget-section-header .title:before {
+    background: var(--fusion-primary);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.ts-widget-section-header .title:after {
+    border-radius: unset;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background: var(--fusion-bg-primary);
+    bottom: 0;
+    left: 4px;
+    right: 0;
+    top: 0;
+}
+
+.tsv-header-bar-below-tools:before {
+    background: unset;
+}
+
+.tsv-activity-secondary .tsv-header:before,
+.tsv-dashboard-widget .tsv-header:before,
+.tsv-sidebar .tsv-header:before {
+    background: var(--fusion-bg-secondary);
+}
+
+.tsv-header:before {
+    background: var(--fusion-bg-secondary);
+}
+
+.tsv-central-toolbar-buttons {
+    margin: 5px;
+}
+
+.tsv-central-toolbar-buttons:before {
+    background: var(--fusion-bg-primary);
+    -webkit-mask-image: unset;
+}
+
+.tsv-server-info-default-banner {
+    border-radius: 4px;
+}
+
+/* Card */
+
+.tsv-settings-window-scale-preview-item:before {
+    background: var(--tsv-icon-base) !important;
+}
+
+.tsv-settings-window-scale-preview-item:after {
+    background: var(--tsv-icon-base) !important;
+}
+
+
+.ts-context-menu,
+.ts-false-context-menu {
+    -webkit-app-region: no-drag;
+    --tsv-disabled-color: var(--tsv-context-menu-disabled-color);
+    --tsv-item-selection: var(--tsv-context-menu-item-selection);
+    --tsv-icon-base: var(--ts-context-menu-font-color);
+    --tsv-icon-tint: var(--ts-context-menu-icon-tint-color);
+    backdrop-filter: blur(4px);
+    background-color: var(--fusion-bg-secondary);
+    border: 1px solid var(--tsv-separation-border-color);
+    margin-bottom: 10px;
+}
+
+.tsv-header.unrelated:before {
+    background: var(--fusion-bg-primary);
+}
+
+.ts-notification:before {
+    background: var(--fusion-bg-secondary);
+}
+
+.ts-discovery-card[data-v-2d75e4b0] {
+    background: var(--tsv-header-bg);
+    border: 1px solid var(--tsv-separation-border-color);
+}
+
+.ts-discovery-card .ts-discovery-header[data-v-2d75e4b0]:before {
+    background: var(--fusion-primary);
+}
+
+/* Sidebar */
+
+.tsv-location-navigator {
+    background-color: var(--fusion-bg-primary);
+}
+
+.tsv-highlight .tsv-title-bar {
+    --tsv-icon-base: var(--tsv-font-color) !important;
+    --tsv-icon-tint: var(--tsv-icon-base) !important;
+}
+
+.tsv-item-accessory>.tsv-button {
+    background-color: var(--fusion-bg-secondary);
+    border-radius: 4px;
+}
+
+.tsv-item-accessory>.tsv-button:hover {
+    background-color: var(--fusion-primary-hover);
+}
+
+.tsv-icon-tint-fill {
+    fill: var(--tsv-icon-tint);
+}
+
+.tsv-bar-item-title {
+    color: var(--tsv-font-color);
+}
+
+.tsv-tab-item {
+    background: var(--fusion-bg-primary);
+}
+
+.tsv-tab-item-active {
+    border: 1px solid var(--fusion-primary);
+    border-radius: var(--tsv-border-radius);
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+}
+
+.tsv-tabs-slim {
+    margin-top: 0;
+    background: var(--fusion-bg-secondary) !important;
+}
+
+.tsv-tab-item-active:before {
+    background: unset !important;
+    border-radius: unset !important;
+    bottom: unset !important;
+    height: unset !important;
+    left: unset !important;
+    right: unset !important;
+    top: unset !important;
+}
+
+.tsv-tab-item {
+    padding: 8px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.tsv-tab-item:hover,
+svg:hover {
+    cursor: pointer;
+}
+
+.tsv-tab-item:nth-child(1) {
+    border-radius: 8px 0 0 8px !important;
+}
+
+.tsv-tab-item:nth-child(2) {
+    border-radius: 0 !important;
+}
+
+.tsv-tab-item:nth-child(3) {
+    border-radius: 0 8px 8px 0 !important;
+}
+
+.tsv-tab-item-active {
+    border-radius: 4px;
+}
+
+.tsv-highlight.tsv-header {
+    border-bottom: unset !important;
+}
+
+.tsv-highlight.tsv-header:before {
+    background: unset;
+    -webkit-mask: unset;
+    -webkit-mask-repeat: repeat-x;
+    -webkit-mask-size: contain;
+}
+
+.tsv-item-action.tinted .tsv-item-content {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: var(--fusion-bg-secondary);
+}
+
+.tsv-item-highlight,
+.tsv-dashboard-widget .tsv-item-highlight,
+.tsv-sidebar .tsv-item-highlight {
+    background: var(--fusion-bg-primary);
+}
+
+.tsv-item-container.tsv-editor .ts-text-input-box {
+    left: 0;
+    right: 0;
+}
+
+.resources-section-container.tsv-flex-grow.tsv-scroll-area-v>.tsv-item.tsv-item-action.tinted.tsv-item-active-secondary>.tsv-item-container.tsv-action.tsv-action-primary {
+    padding: .5rem;
+}
+
+.tsv-item.tsv-item-action.tinted.tsv-item-active-secondary>.tsv-item-container.tsv-action.tsv-action-primary {
+    border-radius: 4px;
+    margin: 10px 0 10px 0;
+    padding: unset !important;
+}
+
+.tsv-item-container.tsv-editor {
+    margin: 10px 0 10px 0;
+}
+
+.tsv-list>ul {
+    background-color: var(--tsv-bg);
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--tsv-separation-border-color);
+}
+
+.tsv-item-container.tsv-action.tsv-action-primary {
+    cursor: pointer;
+    padding: .5rem;
+}
+
+.ts-resources-group-fixed-size:before {
+    background: var(--fusion-bg-secondary);
+}
+
+@media screen and (min-width: 424px) and (max-width: 691px) {
+    .tsv-tab-item:nth-child(1) {
+        border-radius: 8px !important;
+    }
+}
+
+@media screen and (max-width: 691px) {
+    .tsv-list>ul {
+        margin: unset;
+        padding-top: unset;
+        padding-bottom: unset;
+        border-radius: unset;
+    }
+
+    .tsv-item-container.tsv-action.tsv-action-primary {
+        padding: unset;
+    }
+}
+
+.tsv-tabs-slim:before,
+.tsv-tabs-slim {
+    background-color: var(--fusion-bg-secondary);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Settings Audio */
+
+select {
+    padding: 10px;
+}
+
+/* Server Settings/Infos */
+
+.ts-user-style .ts-user-style-cards .ts-user-style-card img {
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.tsv-settings-window-scale-preview {
+    border: none;
+}
