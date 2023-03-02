@@ -17,7 +17,7 @@ To create your own theme you only need a color palette so that you can use your 
 Is already the color palette for the custom theme available.
 
 Use your text editor of choice and edit the color codes given in the file. <br>
-Right click on the `customize.css` and open with `Text Editor`. <br>
+Right click on file `customize.css` and open with `Text Editor`. <br>
 Change the colors of your choice and save the file. <br>
 now restart Teamspeak or open it and select the theme `Custom`. ***Done!***
 
