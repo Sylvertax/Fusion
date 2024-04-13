@@ -76,6 +76,14 @@ div.ts-widget-container.ts-card.no-bottom-margin {
     margin: .5rem;
 }
 
+.tsv-button-filled {
+    --tsv-icon-base: var(--tsv-font-color) !important;
+    --tsv-icon-tint: var(--tsv-font-color) !important;
+    --tsv-icon-tint2: var(--tsv-font-color) !important;
+    background: var(--fusion-primary) !important;
+    color: var(--tsv-font-color) !important;
+}
+
 /* Toggler */
 
 .ts-toggle {
@@ -95,13 +103,13 @@ div.ts-widget-container.ts-card.no-bottom-margin {
 
 /* Section Header */
 
-.ts-widget-section-header .title:before {
+.ts-widget-section-header .title:before, .ts-widget-section-header-full-width:before {
     background: var(--fusion-primary);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
-.ts-widget-section-header .title:after {
+.ts-widget-section-header .title:after, .ts-widget-section-header-full-width:after {
     border-radius: unset;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -110,6 +118,18 @@ div.ts-widget-container.ts-card.no-bottom-margin {
     left: 4px;
     right: 0;
     top: 0;
+}
+
+.ts-widget-section-header-full-width:after {
+    border-bottom-right-radius: 3px !important;
+}
+
+.ts-widget-section-content:after {
+    background-color: var(--fusion-bg-primary);
+}
+
+.ts-widget-section-content:before {
+    background-color: var(--fusion-contrast);
 }
 
 .tsv-header-bar-below-tools:before {
@@ -179,6 +199,42 @@ div.ts-widget-container.ts-card.no-bottom-margin {
 .ts-discovery-card .ts-discovery-header[data-v-2d75e4b0]:before {
     background: var(--fusion-primary);
 }
+
+.ts-discovery-card .ts-discovery-footer {
+    height: 2rem !important;
+}
+
+.ts-discovery-connect.v-popper--has-tooltip > .ts-card-subtitle.ts-discovery-action {
+    background-color: var(--fusion-bg-secondary);
+    color: var(--fusion-text-color);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.ts-discovery-connect.v-popper--has-tooltip > .ts-card-subtitle.ts-discovery-action:not(.ts-discovery-already-joined):hover {
+    background-color: var(--fusion-bg-secondary);
+    color: var(--fusion-primary);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+svg.ts-icon {
+    background-color: var(--fusion-bg-secondary);
+    border-radius: 5px;
+    height: 25px !important;
+    width: 25px !important;
+    margin-right: 5px; 
+    padding: 3px;
+}
+
+.tsv-resize-area-container .ts-list-root .vue-recycle-scroller__item-wrapper{
+    min-height: 40px !important;
+}
+
+.tsv-client-info-groups .vue-recycle-scroller__item-wrapper{
+    min-height: 90px !important;
+}
+
 
 /* Sidebar */
 
@@ -337,6 +393,10 @@ svg:hover {
 
     .tsv-item-container.tsv-action.tsv-action-primary {
         padding: unset;
+    }
+
+    .tsv-item-action.tinted .tsv-item-content {
+        padding: 10px 0 10px 0;
     }
 }
 

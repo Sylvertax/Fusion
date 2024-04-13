@@ -1,7 +1,7 @@
 {
     "name": "Fusion by Sylvertax",
     "description": "Fusion is a Modern Theme for Teamspeak 5. Made with <3",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "identifier": "de.sylvertax.teamspeak",
     "engines": {
         "teamspeak": 1
@@ -14,7 +14,7 @@
     "license": "MIT",
     "author": {
         "name": "Lucas",
-        "email": "sylvertax@web.de",
+        "email": "lucas.reum95@gmail.com",
         "url": "https://sylvertax.com",
         "userTag": "Sylvertax@myteamspeak.com"
     },
