@@ -238,6 +238,11 @@ svg.ts-icon {
 
 /* Sidebar */
 
+.tsv-activity-group-list > .tsv-selected > .tsv-item-container.tsv-action.tsv-action-primary {
+    background-color: var(--fusion-bg-secondary) !important; 
+    border-radius: 5px !important;
+}
+
 .tsv-location-navigator {
     background-color: var(--fusion-bg-primary);
 }
